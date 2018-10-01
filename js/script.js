@@ -1,16 +1,10 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-
-if (hourNow > 18) {
-    greeting = 'Good evening!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
-} else if (hourNow > 0) {
-    greeting = 'Good morning';
-} else {
-    greeting = 'Welcome!';
+function toggleStyle() {
+    var body = document.getElementById("bodyID");
+    if (body.style.color === "white") {
+        body.style.color = "black";
+        body.style.background = "white";
+    } else {
+        body.style.color = "white";
+        body.style.background = "black";
+    }
 }
-
-
-document.write('<h3>' + greeting + ' ' + hourNow + '</h3>');

@@ -1,3 +1,8 @@
 #bodyID {
     transition: 0.5s;
 }
+
+p {
+    font-size: 25px;
+    transition: 1s;
+}

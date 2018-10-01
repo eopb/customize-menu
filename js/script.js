@@ -8,3 +8,18 @@ function toggleStyle() {
         body.style.background = "black";
     }
 }
+
+function largeFont() {
+    var parag = document.getElementById("parag");
+    parag.style.fontSize = "50px";
+}
+
+function mediumFont() {
+    var parag = document.getElementById("parag");
+    parag.style.fontSize = "25px";
+}
+
+function smallFont() {
+    var parag = document.getElementById("parag");
+    parag.style.fontSize = "16px";
+}
